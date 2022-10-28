@@ -1,0 +1,208 @@
+.wrapper {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+.main-wrapper {
+    background: #F5F5F5;
+    width: 80%;
+    margin: 2em auto;
+    padding: 0 60px;
+    height: 420px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    grid-gap: 60px;
+}
+
+.balance-wrapper {
+    margin: 10px;
+    flex: 3;
+    height: 60%;
+    background: rgba(106, 106, 106, 0.08);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Museo Sans Cyrl normal";
+    font-style: normal;
+    font-size: 22px;
+    line-height: 13px;
+}
+
+.your-balance {
+    font-family: "Museo Sans Cyrl normal";
+    font-weight: normal;
+}
+
+.balance-info {
+    color: #242424;
+}
+
+.balance {
+    display: flex;
+    flex-direction: row;
+    grid-gap: 5px;
+}
+
+.balance-coin {
+    width: 45px;
+    height: 45px;
+    transform: rotate(-10.32deg);
+}
+
+.balance-value {
+    font-family: "Museo Sans Cyrl bold";
+    font-style: normal;
+    font-size: 52px;
+    line-height: 43px;
+    margin: 0;
+}
+
+.buy-wrapper {
+    margin: 10px;
+    flex: 9;
+    height: 60%;
+    background: rgba(106, 106, 106, 0.08);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buy-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    font-family: "Museo Sans Cyrl bold";
+    font-style: normal;
+    font-size: 22px;
+    line-height: 13px;
+}
+
+.instruction {
+    font-family: "Museo Sans Cyrl small";
+    font-style: normal;
+    font-size: 9px;
+    line-height: 18px;
+    text-decoration-line: underline;
+    opacity: 0.5;
+}
+
+.buy-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    grid-gap: 50px;
+    margin: 10px auto;
+}
+
+.buy-item {
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-row-gap: 10px;
+}
+
+.buy-value-info {
+    display: flex;
+    flex-direction: row;
+    grid-gap: 2px;
+}
+
+.buy-coin {
+    width: 14px;
+    height: 14px;
+}
+
+.buy-value {
+    font-family: "Museo Sans Cyrl bold";
+    font-style: normal;
+    font-size: 18px;
+    line-height: 13px;
+    margin: 0;
+}
+
+.buy-icon {
+    width: 50px;
+    height: 45px;
+}
+
+.buy-description {
+    display: flex;
+    flex-direction: row;
+    grid-gap: 5px;
+}
+
+.buy-sale {
+    width: 40px;
+    height: 25px;
+    font-family: "Museo Sans Cyrl bold";
+    font-style: normal;
+    font-size: 14px;
+    line-height: 13px;
+    text-align: center;
+    margin: 0;
+    background: #FF0000;
+    border-radius: 15%;
+    color: #FFFFFF;
+    transform: rotate(-12.65deg);
+}
+
+.sale-value {
+    position: relative;
+    top: 25%;
+    margin: 0;
+}
+
+.description {
+    margin: 0;
+}
+
+.buy-sale-button {
+    width: 135px;
+    height: 42px;
+    border-radius: 5px;
+}
+
+.not-buyed {
+    background: #FECE00;
+    color: #000;
+}
+
+.already-buyed {
+    background: #00CD52;
+    color: #FFFFFF;
+}
+
+.sale-button-text {
+    font-family: "Museo Sans Cyrl bold";
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "Museo Sans Cyrl bold";
+    src: url("../unit/MuseoSansCyrl.ttf");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Museo Sans Cyrl normal";
+    src: url("../unit/MuseoSansCyrl.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Museo Sans Cyrl small";
+    src: url("../unit/MuseoSansCyrl.ttf");
+    font-weight: 300;
+}
